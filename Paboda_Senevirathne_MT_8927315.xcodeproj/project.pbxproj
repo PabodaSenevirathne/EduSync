@@ -17,6 +17,7 @@
 		D778B0C72AF0874F001C297F /* Paboda_Senevirathne_MT_8927315Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0C62AF0874F001C297F /* Paboda_Senevirathne_MT_8927315Tests.swift */; };
 		D778B0D12AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0D02AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITests.swift */; };
 		D778B0D32AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0D22AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift */; };
+		D7C54EA92AF1487B009C26EF /* CanadaSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D778B0CC2AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paboda_Senevirathne_MT_8927315UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D778B0D02AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paboda_Senevirathne_MT_8927315UITests.swift; sourceTree = "<group>"; };
 		D778B0D22AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaSceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D778B0A32AF0874D001C297F = {
 			isa = PBXGroup;
 			children = (
+				D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */,
 				D72308B62AF13BE600E92F08 /* QuadraticViewController.swift */,
 				D778B0AE2AF0874D001C297F /* Paboda_Senevirathne_MT_8927315 */,
 				D778B0C52AF0874F001C297F /* Paboda_Senevirathne_MT_8927315Tests */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D778B0B42AF0874D001C297F /* ViewController.swift in Sources */,
+				D7C54EA92AF1487B009C26EF /* CanadaSceneViewController.swift in Sources */,
 				D72308B72AF13BE600E92F08 /* QuadraticViewController.swift in Sources */,
 				D778B0B02AF0874D001C297F /* AppDelegate.swift in Sources */,
 				D778B0B22AF0874D001C297F /* SceneDelegate.swift in Sources */,

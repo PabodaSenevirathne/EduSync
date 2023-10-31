@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="3304.5801526717555" y="-392.25352112676057"/>
         </scene>
-        <!--View Controller-->
+        <!--Canada Scene View Controller-->
         <scene sceneID="b9e-i2-a9k">
             <objects>
-                <viewController id="1q7-wg-ZCB" sceneMemberID="viewController">
+                <viewController id="1q7-wg-ZCB" customClass="CanadaSceneViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Tc-Uw-NQq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,12 +180,20 @@
                                 <color key="backgroundColor" red="0.5725490196078431" green="0.77647058823529413" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Find My City"/>
+                                <connections>
+                                    <action selector="findMyCity:" destination="1q7-wg-ZCB" eventType="touchUpInside" id="A7a-L5-3qq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sbj-LL-Mok"/>
                         <color key="backgroundColor" red="0.60784313725490191" green="0.84705882352941175" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" id="2tK-51-kES"/>
+                    <connections>
+                        <outlet property="cityImage" destination="hWD-1T-G90" id="ecD-om-9rC"/>
+                        <outlet property="cityInput" destination="GzV-JC-lnI" id="iV5-hw-OhF"/>
+                        <outlet property="findMyCity" destination="8bG-BJ-Qxv" id="Knc-OM-WWq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXs-S5-hDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
