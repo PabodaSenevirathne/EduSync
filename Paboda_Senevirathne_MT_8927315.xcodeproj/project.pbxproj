@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72308B72AF13BE600E92F08 /* QuadraticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72308B62AF13BE600E92F08 /* QuadraticViewController.swift */; };
 		D778B0B02AF0874D001C297F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0AF2AF0874D001C297F /* AppDelegate.swift */; };
 		D778B0B22AF0874D001C297F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0B12AF0874D001C297F /* SceneDelegate.swift */; };
 		D778B0B42AF0874D001C297F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0B32AF0874D001C297F /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72308B62AF13BE600E92F08 /* QuadraticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticViewController.swift; sourceTree = "<group>"; };
 		D778B0AC2AF0874D001C297F /* Paboda_Senevirathne_MT_8927315.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paboda_Senevirathne_MT_8927315.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D778B0AF2AF0874D001C297F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D778B0B12AF0874D001C297F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		D778B0A32AF0874D001C297F = {
 			isa = PBXGroup;
 			children = (
+				D72308B62AF13BE600E92F08 /* QuadraticViewController.swift */,
 				D778B0AE2AF0874D001C297F /* Paboda_Senevirathne_MT_8927315 */,
 				D778B0C52AF0874F001C297F /* Paboda_Senevirathne_MT_8927315Tests */,
 				D778B0CF2AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITests */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D778B0B42AF0874D001C297F /* ViewController.swift in Sources */,
+				D72308B72AF13BE600E92F08 /* QuadraticViewController.swift in Sources */,
 				D778B0B02AF0874D001C297F /* AppDelegate.swift in Sources */,
 				D778B0B22AF0874D001C297F /* SceneDelegate.swift in Sources */,
 			);

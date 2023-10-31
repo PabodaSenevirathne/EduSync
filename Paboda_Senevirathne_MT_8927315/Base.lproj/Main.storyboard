@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="2486.2595419847326" y="-402.11267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Quadratic View Controller-->
         <scene sceneID="5VO-6a-OaS">
             <objects>
-                <viewController id="ZCB-c3-uzs" sceneMemberID="viewController">
+                <viewController id="ZCB-c3-uzs" customClass="QuadraticViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Ra-4f-5YV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rmS-JP-HrG">
-                                <rect key="frame" x="201" y="333" width="97" height="34"/>
+                                <rect key="frame" x="201" y="348" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -103,6 +103,9 @@
                                 <color key="backgroundColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Clear"/>
+                                <connections>
+                                    <action selector="clearButtonTapped:" destination="ZCB-c3-uzs" eventType="touchUpInside" id="ghg-Gk-s8U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alH-6v-cJ1">
                                 <rect key="frame" x="16" y="519" width="95" height="35"/>
@@ -110,12 +113,36 @@
                                 <color key="backgroundColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculationButtonTapped:" destination="ZCB-c3-uzs" eventType="touchUpInside" id="7vl-bp-5OP"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L2o-cs-0uP">
+                                <rect key="frame" x="201" y="418" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Fq-iq-jzz">
+                                <rect key="frame" x="77" y="702" width="292" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MiT-fX-Qdv"/>
                         <color key="backgroundColor" red="1" green="0.74509803921568629" blue="0.0078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="P8u-Yf-u2I"/>
+                    <connections>
+                        <outlet property="calculationButtonTapped" destination="alH-6v-cJ1" id="Mdo-MK-QMx"/>
+                        <outlet property="clearButtonTapped" destination="FlB-v7-Tip" id="VVL-u7-RUc"/>
+                        <outlet property="inputA" destination="Jsi-oC-hUU" id="ZEk-Ie-agm"/>
+                        <outlet property="inputB" destination="q01-0K-ma4" id="rbZ-v3-Afs"/>
+                        <outlet property="inputC" destination="rmS-JP-HrG" id="JCx-ho-jVR"/>
+                        <outlet property="messageLabel" destination="1Fq-iq-jzz" id="xhB-oW-Ctj"/>
+                        <outlet property="resultLabel" destination="L2o-cs-0uP" id="AlL-tm-hJ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWm-MK-MOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
