@@ -46,14 +46,15 @@ class QuadraticViewController: UIViewController {
         let b = Double(inputB.text ?? ""),
         let c = Double(inputC.text ?? "") else {
             
-            messageLabel.text = "Enter valid value for A,B and C."
+            messageLabel.text = "Enter valid values for A, B, and C."
+            resultLabel.text = ""
             return
         }
         
         let result = b * b-4 * a * c
         
         if result < 0{
-            messageLabel.text = "There is no results since the discrimination"
+            messageLabel.text = "There is no results since the discriminant is less than zero"
             resultLabel.text = ""
             
         }else if result == 0{
@@ -65,7 +66,7 @@ class QuadraticViewController: UIViewController {
         }else{
             messageLabel.text = "There are two valus for X"
             let x1 = (-b + sqrt(result)) / (2 * a)
-            let x2 = (-b - sqrt(result)) / (2 * a)
+            let x2 = (-b - sqrt(result)) / (2*a)
             resultLabel.text = "X1 = \(x1), x2 = \(x2)"
         }
         
