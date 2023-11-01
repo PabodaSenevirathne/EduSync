@@ -148,7 +148,7 @@
             </objects>
             <point key="canvasLocation" x="3304.5801526717555" y="-392.25352112676057"/>
         </scene>
-        <!--Canada Scene View Controller-->
+        <!--Canada-->
         <scene sceneID="b9e-i2-a9k">
             <objects>
                 <viewController id="1q7-wg-ZCB" customClass="CanadaSceneViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
@@ -188,7 +188,7 @@
                         <viewLayoutGuide key="safeArea" id="Sbj-LL-Mok"/>
                         <color key="backgroundColor" red="0.60784313725490191" green="0.84705882352941175" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" id="2tK-51-kES"/>
+                    <tabBarItem key="tabBarItem" title="Canada" image="globe" selectedImage="globe" catalog="system" id="2tK-51-kES"/>
                     <connections>
                         <outlet property="cityImage" destination="hWD-1T-G90" id="ecD-om-9rC"/>
                         <outlet property="cityInput" destination="GzV-JC-lnI" id="iV5-hw-OhF"/>
@@ -199,7 +199,7 @@
             </objects>
             <point key="canvasLocation" x="1560" y="-1068"/>
         </scene>
-        <!--Item-->
+        <!--My Work-->
         <scene sceneID="I5k-vf-H06">
             <objects>
                 <viewController id="3dG-i6-CrH" sceneMemberID="viewController">
@@ -209,7 +209,7 @@
                         <viewLayoutGuide key="safeArea" id="Pzn-nc-0X5"/>
                         <color key="backgroundColor" red="0.60784313725490191" green="0.84705882352941175" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pMY-Gl-STF"/>
+                    <tabBarItem key="tabBarItem" title="My Work" image="pencil" catalog="system" selectedImage="pencil" id="pMY-Gl-STF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6K-iT-Sor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,11 +234,11 @@
             </objects>
             <point key="canvasLocation" x="729" y="-226"/>
         </scene>
-        <!--Item 2-->
+        <!--Calculator-->
         <scene sceneID="tTD-8G-ld3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ksZ-bu-oe5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Tqf-ws-HPd"/>
+                    <tabBarItem key="tabBarItem" title="Calculator" image="clipboard" catalog="system" selectedImage="clipboard" id="Tqf-ws-HPd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jYY-Ce-sVl">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -255,6 +255,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="clipboard" catalog="system" width="103" height="128"/>
+        <image name="globe" catalog="system" width="128" height="123"/>
+        <image name="globe" width="128" height="128"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

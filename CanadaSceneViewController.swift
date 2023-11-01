@@ -12,24 +12,29 @@ class CanadaSceneViewController: UIViewController {
     
     @IBOutlet weak var cityImage: UIImageView!
     
-    
-    
     @IBOutlet weak var cityInput: UITextField!
     
     @IBOutlet weak var findMyCity: UIButton!
     
     
     let cityMapping: [String: String] = [
-    
-        "Toronto": "toronto.jpg",
-        "Vancouver": "vancouver.jpg",
+     
+        "Toronto": "Toronto.jpeg",
+        "Calgary" : "Calgary.jpeg",
+        "Halifax": "Halifax.jpeg",
+        "Montreal": "Montreal.jpeg",
+        "Winnipeg": "Winnipeg.jpeg",
+        "Vancouver": "vancouver.jpeg",
         
     ]
+    
+    let defaultImage = "Canada.jpeg"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        cityImage.image = UIImage(named: defaultImage)
+        
     }
     
     @IBAction func findMyCity(_ sender: UIButton) {
@@ -39,20 +44,9 @@ class CanadaSceneViewController: UIViewController {
                
            }
         else{
-            cityImage.image = nil 
+            cityImage.image = nil
         }
     }
-    
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
