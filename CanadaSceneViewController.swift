@@ -39,11 +39,11 @@ class CanadaSceneViewController: UIViewController {
     
     @IBAction func findMyCity(_ sender: UIButton) {
         if let cityName = cityInput.text,
-           let imageName = cityMapping[cityName]{
+           let imageName = cityMapping[cityName] {
                cityImage.image = UIImage(named: imageName)
-               
            }
-        else{
+        
+        else {
             cityImage.image = nil
         }
     }

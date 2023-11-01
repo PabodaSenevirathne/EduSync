@@ -38,6 +38,7 @@ class QuadraticViewController: UIViewController {
     
 
     @IBAction func clearButtonTapped(_ sender: UIButton) {
+        clear();
     }
     
     private func calculate(){
@@ -51,22 +52,22 @@ class QuadraticViewController: UIViewController {
             return
         }
         
-        let result = b * b-4 * a * c
+        let result = b * b - 4 * a * c
         
         if result < 0{
             messageLabel.text = "There is no results since the discriminant is less than zero"
             resultLabel.text = ""
             
-        }else if result == 0{
+        } else if result == 0{
             messageLabel.text = "There is only one value for X"
-            let x = -b/(2*a)
-            resultLabel.text = "X= \(x)"
+            let x = -b / (2 * a)
+            resultLabel.text = "X = \(x)"
             
             
-        }else{
+        } else{
             messageLabel.text = "There are two valus for X"
             let x1 = (-b + sqrt(result)) / (2 * a)
-            let x2 = (-b - sqrt(result)) / (2*a)
+            let x2 = (-b - sqrt(result)) / (2 * a)
             resultLabel.text = "X1 = \(x1), x2 = \(x2)"
         }
         
