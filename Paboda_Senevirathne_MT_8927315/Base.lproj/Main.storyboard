@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quadraticformula" translatesAutoresizingMaskIntoConstraints="NO" id="wvA-CV-B89">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quadratic-formula" translatesAutoresizingMaskIntoConstraints="NO" id="wvA-CV-B89">
                                 <rect key="frame" x="71.666666666666686" y="278.33333333333331" width="250" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="nJg-4J-MNo"/>
@@ -283,7 +283,7 @@
                                     <action selector="findMyCity:" destination="1q7-wg-ZCB" eventType="touchUpInside" id="A7a-L5-3qq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSN-wN-Mio">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSN-wN-Mio">
                                 <rect key="frame" x="86.666666666666686" y="202.66666666666666" width="220" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="36d-4h-kGY"/>
@@ -465,10 +465,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Quadraticformula" width="706" height="551"/>
         <image name="clipboard" catalog="system" width="103" height="128"/>
         <image name="globe" catalog="system" width="128" height="123"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="quadratic-formula" width="1024" height="655"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

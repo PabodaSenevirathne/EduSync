@@ -16,8 +16,9 @@ class CanadaSceneViewController: UIViewController {
     
     @IBOutlet weak var findMyCity: UIButton!
     
-    
     @IBOutlet weak var cityLabel: UILabel!
+    
+    // dictionary to map city name to image id
     let cityMapping: [String: String] = [
      
         "Toronto": "Toronto.jpeg",
@@ -29,23 +30,28 @@ class CanadaSceneViewController: UIViewController {
         
     ]
     
+    // set the default image
     let defaultImage = "Canada.jpeg"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         cityImage.image = UIImage(named: defaultImage)
+        cityLabel.text = ""
         
     }
     
+    // fuction to find the city according to the input
     @IBAction func findMyCity(_ sender: UIButton) {
         if let cityName = cityInput.text,
            let imageName = cityMapping[cityName] {
                cityImage.image = UIImage(named: imageName)
+            cityLabel.text = ""
            }
         
         else {
-            cityImage.image = nil
+            // display default image if the city is not found
+            cityImage.image = UIImage(named: defaultImage)
             cityLabel.text = "City not found"
         }
     }
