@@ -17,6 +17,7 @@ class CanadaSceneViewController: UIViewController {
     @IBOutlet weak var findMyCity: UIButton!
     
     
+    @IBOutlet weak var cityLabel: UILabel!
     let cityMapping: [String: String] = [
      
         "Toronto": "Toronto.jpeg",
@@ -45,6 +46,7 @@ class CanadaSceneViewController: UIViewController {
         
         else {
             cityImage.image = nil
+            cityLabel.text = "City not found"
         }
     }
 
