@@ -8,33 +8,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Function-->
         <scene sceneID="bFE-GH-QlT">
             <objects>
-                <viewController id="7xC-hQ-Uyj" sceneMemberID="viewController">
+                <viewController id="7xC-hQ-Uyj" userLabel="Function" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FR8-I3-UzM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quadratic-formula" translatesAutoresizingMaskIntoConstraints="NO" id="wvA-CV-B89">
-                                <rect key="frame" x="71.666666666666686" y="278.33333333333331" width="250" height="125"/>
+                                <rect key="frame" x="71.666666666666686" y="235.66666666666663" width="250" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="nJg-4J-MNo"/>
                                     <constraint firstAttribute="height" constant="125" id="zmq-YU-qRU"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quadratic Formula" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKe-wh-Hxo">
-                                <rect key="frame" x="126" y="117.33333333333333" width="141" height="20.999999999999986"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Nw5-Jd-6dS"/>
-                                    <constraint firstAttribute="width" constant="141" id="hXC-sc-Lly"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKq-cm-8mP">
-                                <rect key="frame" x="71.666666666666686" y="493.66666666666669" width="250" height="35.000000000000057"/>
+                                <rect key="frame" x="71.666666666666686" y="451" width="250" height="35"/>
                                 <color key="backgroundColor" red="0.37254901960784315" green="0.77647058823529413" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="OVp-5X-jCw"/>
@@ -50,24 +40,22 @@
                         <viewLayoutGuide key="safeArea" id="TgQ-yI-SpF"/>
                         <color key="backgroundColor" red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uKe-wh-Hxo" firstAttribute="centerY" secondItem="FR8-I3-UzM" secondAttribute="centerY" multiplier="0.3" id="0i0-WL-gtc"/>
-                            <constraint firstItem="wvA-CV-B89" firstAttribute="centerY" secondItem="FR8-I3-UzM" secondAttribute="centerY" multiplier="0.8" id="1aO-sd-kyD"/>
-                            <constraint firstItem="TKq-cm-8mP" firstAttribute="centerY" secondItem="FR8-I3-UzM" secondAttribute="centerY" multiplier="1.2" id="bCY-MC-QCj"/>
+                            <constraint firstItem="wvA-CV-B89" firstAttribute="centerY" secondItem="FR8-I3-UzM" secondAttribute="centerY" multiplier="0.7" id="1aO-sd-kyD"/>
+                            <constraint firstItem="TKq-cm-8mP" firstAttribute="centerY" secondItem="FR8-I3-UzM" secondAttribute="centerY" multiplier="1.1" id="bCY-MC-QCj"/>
                             <constraint firstItem="TKq-cm-8mP" firstAttribute="centerX" secondItem="FR8-I3-UzM" secondAttribute="centerX" id="gHO-iQ-SM1"/>
-                            <constraint firstItem="uKe-wh-Hxo" firstAttribute="centerX" secondItem="FR8-I3-UzM" secondAttribute="centerX" id="kbr-W2-Ey8"/>
                             <constraint firstItem="wvA-CV-B89" firstAttribute="centerX" secondItem="FR8-I3-UzM" secondAttribute="centerX" id="rFE-Go-GNV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="aQy-66-gMA"/>
+                    <navigationItem key="navigationItem" title="Quadratic Formula" id="aQy-66-gMA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vT8-UI-8Sg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2486.2595419847326" y="-402.11267605633805"/>
         </scene>
-        <!--Quadratic View Controller-->
+        <!--Quadratic-->
         <scene sceneID="5VO-6a-OaS">
             <objects>
-                <viewController id="ZCB-c3-uzs" customClass="QuadraticViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZCB-c3-uzs" userLabel="Quadratic" customClass="QuadraticViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Ra-4f-5YV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,15 +157,6 @@
                                     <action selector="calculationButtonTapped:" destination="ZCB-c3-uzs" eventType="touchUpInside" id="7vl-bp-5OP"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Fq-iq-jzz">
-                                <rect key="frame" x="30.333333333333343" y="579.33333333333337" width="348" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="348" id="2Es-vZ-yof"/>
-                                    <constraint firstAttribute="height" constant="34" id="fy8-qw-TaO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-v7-Tip">
                                 <rect key="frame" x="31" y="664" width="95" height="35"/>
                                 <color key="backgroundColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -200,6 +179,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBy-w1-8iz">
+                                <rect key="frame" x="30" y="574" width="346" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MiT-fX-Qdv"/>
                         <color key="backgroundColor" red="1" green="0.74509803921568629" blue="0.0078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
@@ -213,10 +199,8 @@
                             <constraint firstItem="alH-6v-cJ1" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" id="UTj-DP-gec"/>
                             <constraint firstItem="YCl-ti-2cf" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="0.8" id="ddU-vw-4VA"/>
                             <constraint firstItem="Ve5-bL-H8T" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="0.7" id="eM2-Zh-quI"/>
-                            <constraint firstItem="1Fq-iq-jzz" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="1.04" id="kZK-Pj-SbY"/>
                             <constraint firstItem="Ve5-bL-H8T" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="0.6" id="nf8-Nu-542"/>
                             <constraint firstItem="FlB-v7-Tip" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="1.6" id="qi7-4w-5SF"/>
-                            <constraint firstItem="1Fq-iq-jzz" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="1.4" id="ss5-Yh-rjF"/>
                             <constraint firstItem="zd1-ZP-dIt" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="0.4" id="zYl-Em-3o0"/>
                         </constraints>
                     </view>
@@ -227,7 +211,7 @@
                         <outlet property="inputA" destination="Jsi-oC-hUU" id="ZEk-Ie-agm"/>
                         <outlet property="inputB" destination="q01-0K-ma4" id="rbZ-v3-Afs"/>
                         <outlet property="inputC" destination="rmS-JP-HrG" id="JCx-ho-jVR"/>
-                        <outlet property="messageLabel" destination="1Fq-iq-jzz" id="xhB-oW-Ctj"/>
+                        <outlet property="messageLabel" destination="FBy-w1-8iz" id="17l-VJ-e00"/>
                         <outlet property="resultLabel" destination="L2o-cs-0uP" id="AlL-tm-hJ6"/>
                     </connections>
                 </viewController>
@@ -238,7 +222,7 @@
         <!--Canada-->
         <scene sceneID="b9e-i2-a9k">
             <objects>
-                <viewController id="1q7-wg-ZCB" customClass="CanadaSceneViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1q7-wg-ZCB" userLabel="Canada" customClass="CanadaSceneViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Tc-Uw-NQq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -321,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="1559.5419847328244" y="-1068.3098591549297"/>
         </scene>
-        <!--View Controller-->
+        <!--MyLabs-->
         <scene sceneID="I5k-vf-H06">
             <objects>
-                <viewController id="3dG-i6-CrH" sceneMemberID="viewController">
+                <viewController id="3dG-i6-CrH" userLabel="MyLabs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4h4-97-EaW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -465,10 +449,10 @@
             </objects>
             <point key="canvasLocation" x="1597.709923664122" y="303.52112676056339"/>
         </scene>
-        <!--Scene6 View Controller-->
+        <!--Lab3-->
         <scene sceneID="wyM-SQ-HbV">
             <objects>
-                <viewController id="8tG-Bc-UCL" customClass="Scene6ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8tG-Bc-UCL" userLabel="Lab3" customClass="Scene6ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DS8-9Q-9Gf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -621,10 +605,10 @@
             </objects>
             <point key="canvasLocation" x="4034" y="295"/>
         </scene>
-        <!--Scene5 View Controller-->
+        <!--Lab2-->
         <scene sceneID="tDc-L0-fw6">
             <objects>
-                <viewController id="jZR-vp-WmF" customClass="Scene5ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jZR-vp-WmF" userLabel="Lab2" customClass="Scene5ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PIZ-PI-SQB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -760,10 +744,10 @@
             </objects>
             <point key="canvasLocation" x="3268" y="295"/>
         </scene>
-        <!--Scene7 View Controller-->
+        <!--Lab4-->
         <scene sceneID="BHJ-Af-Dpc">
             <objects>
-                <viewController id="a6j-aF-3d6" customClass="Scene7ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a6j-aF-3d6" userLabel="Lab4" customClass="Scene7ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iLH-fA-g99">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

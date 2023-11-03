@@ -22,7 +22,7 @@ class QuadraticViewController: UIViewController {
     
     @IBOutlet weak var clearButtonTapped: UIButton!
     
-    @IBOutlet weak var messageLabel: UITextField!
+    @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
