@@ -92,7 +92,7 @@ class QuadraticViewController: UIViewController {
                 messageLabel.text = "There are two valus for X"
                 let x1 = (-b + sqrt(result)) / (2 * a)
                 let x2 = (-b - sqrt(result)) / (2 * a)
-                resultLabel.text = "X1 = \(x1), x2 = \(x2)"
+                resultLabel.text = "X1 = \(String(format: "%.2f", x1)), x2 = \(String(format:"%.2f", x2))"
             }
         }
         
