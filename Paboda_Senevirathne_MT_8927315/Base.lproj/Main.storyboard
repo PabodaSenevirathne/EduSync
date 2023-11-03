@@ -95,10 +95,6 @@
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="6BE-9z-n3G"/>
-                                    <constraint firstAttribute="width" constant="209" id="I77-zG-hb2"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ve5-bL-H8T">
                                 <rect key="frame" x="52.666666666666657" y="231" width="208.99999999999997" height="49"/>
@@ -330,7 +326,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wWK-Of-4SE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_pic" translatesAutoresizingMaskIntoConstraints="NO" id="wWK-Of-4SE">
                                 <rect key="frame" x="76.666666666666686" y="191.66666666666666" width="240" height="127.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="MBO-m5-5oT"/>
@@ -685,7 +681,7 @@
                                     <action selector="CounterMateAdd:" destination="jZR-vp-WmF" eventType="touchUpInside" id="R6C-4v-iJ9"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ConestogaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="El8-6x-uMc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CounterMateAppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="El8-6x-uMc">
                                 <rect key="frame" x="129" y="123" width="134" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -803,11 +799,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ConestogaLogo" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="CounterMateAppIcon" width="1024" height="1024"/>
         <image name="clipboard" catalog="system" width="103" height="128"/>
         <image name="globe" catalog="system" width="128" height="123"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="photography" width="1280" height="1024"/>
+        <image name="profile_pic" width="4896" height="4740"/>
         <image name="quadratic-formula" width="1024" height="655"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
