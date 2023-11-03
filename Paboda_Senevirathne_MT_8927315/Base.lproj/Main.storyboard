@@ -179,9 +179,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBy-w1-8iz">
-                                <rect key="frame" x="30" y="574" width="346" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBy-w1-8iz">
+                                <rect key="frame" x="23.666666666666657" y="573" width="346" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="3Gk-cL-2YG"/>
+                                    <constraint firstAttribute="width" constant="346" id="kfw-gl-pNj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -195,6 +198,8 @@
                             <constraint firstItem="L2o-cs-0uP" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="0.58" id="GSk-g9-OO0"/>
                             <constraint firstItem="alH-6v-cJ1" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="0.4" id="JfL-MV-HNy"/>
                             <constraint firstItem="YCl-ti-2cf" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="0.7" id="Krh-wV-2My"/>
+                            <constraint firstItem="FBy-w1-8iz" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="1.4" id="L75-EG-1aq"/>
+                            <constraint firstItem="FBy-w1-8iz" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" id="OvP-Ix-ZEM"/>
                             <constraint firstItem="FlB-v7-Tip" firstAttribute="centerX" secondItem="7Ra-4f-5YV" secondAttribute="centerX" multiplier="0.4" id="Pww-C4-UVp"/>
                             <constraint firstItem="alH-6v-cJ1" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" id="UTj-DP-gec"/>
                             <constraint firstItem="YCl-ti-2cf" firstAttribute="centerY" secondItem="7Ra-4f-5YV" secondAttribute="centerY" multiplier="0.8" id="ddU-vw-4VA"/>
