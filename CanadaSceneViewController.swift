@@ -39,6 +39,13 @@ class CanadaSceneViewController: UIViewController {
         cityImage.image = UIImage(named: defaultImage)
         cityLabel.text = ""
         
+        //tap gesture recognizer to hide the  keyboard
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
     }
     
     // fuction to find the city according to the input

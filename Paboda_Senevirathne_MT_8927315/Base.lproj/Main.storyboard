@@ -356,7 +356,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9si-gO-PJB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photography" translatesAutoresizingMaskIntoConstraints="NO" id="9si-gO-PJB">
                                 <rect key="frame" x="76.666666666666686" y="447.33333333333331" width="240" height="127.99999999999994"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Ky0-g7-Nnz"/>
@@ -806,6 +806,7 @@
         <image name="clipboard" catalog="system" width="103" height="128"/>
         <image name="globe" catalog="system" width="128" height="123"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="photography" width="1280" height="1024"/>
         <image name="quadratic-formula" width="1024" height="655"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

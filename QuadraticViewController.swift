@@ -15,18 +15,27 @@ class QuadraticViewController: UIViewController {
     @IBOutlet weak var inputB: UITextField!
     
     @IBOutlet weak var inputC: UITextField!
-    
-    
+
     @IBOutlet weak var resultLabel: UITextField!
+    
     @IBOutlet weak var calculationButtonTapped: UIButton!
     
     @IBOutlet weak var clearButtonTapped: UIButton!
     
     @IBOutlet weak var messageLabel: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //tap gesture recognizer to hide the  keyboard
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapGesture)
 
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
     }
     
     @IBAction func calculationButtonTapped(_ sender: UIButton) {
