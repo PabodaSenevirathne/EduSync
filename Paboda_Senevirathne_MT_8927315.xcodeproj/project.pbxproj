@@ -19,6 +19,8 @@
 		D778B0D32AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778B0D22AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift */; };
 		D7C54EA92AF1487B009C26EF /* CanadaSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */; };
 		D7E2CC0B2AF4990A0030DCA4 /* Scene5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2CC0A2AF4990A0030DCA4 /* Scene5ViewController.swift */; };
+		D7E2CC0D2AF49ACA0030DCA4 /* Scene6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2CC0C2AF49ACA0030DCA4 /* Scene6ViewController.swift */; };
+		D7E2CC0F2AF49C070030DCA4 /* Scene7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2CC0E2AF49C070030DCA4 /* Scene7ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D778B0D22AF0874F001C297F /* Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paboda_Senevirathne_MT_8927315UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaSceneViewController.swift; sourceTree = "<group>"; };
 		D7E2CC0A2AF4990A0030DCA4 /* Scene5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene5ViewController.swift; sourceTree = "<group>"; };
+		D7E2CC0C2AF49ACA0030DCA4 /* Scene6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene6ViewController.swift; sourceTree = "<group>"; };
+		D7E2CC0E2AF49C070030DCA4 /* Scene7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene7ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		D778B0A32AF0874D001C297F = {
 			isa = PBXGroup;
 			children = (
+				D7E2CC0E2AF49C070030DCA4 /* Scene7ViewController.swift */,
+				D7E2CC0C2AF49ACA0030DCA4 /* Scene6ViewController.swift */,
 				D7E2CC0A2AF4990A0030DCA4 /* Scene5ViewController.swift */,
 				D7C54EA82AF1487B009C26EF /* CanadaSceneViewController.swift */,
 				D72308B62AF13BE600E92F08 /* QuadraticViewController.swift */,
@@ -268,10 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D778B0B42AF0874D001C297F /* ViewController.swift in Sources */,
+				D7E2CC0F2AF49C070030DCA4 /* Scene7ViewController.swift in Sources */,
 				D7E2CC0B2AF4990A0030DCA4 /* Scene5ViewController.swift in Sources */,
 				D7C54EA92AF1487B009C26EF /* CanadaSceneViewController.swift in Sources */,
 				D72308B72AF13BE600E92F08 /* QuadraticViewController.swift in Sources */,
 				D778B0B02AF0874D001C297F /* AppDelegate.swift in Sources */,
+				D7E2CC0D2AF49ACA0030DCA4 /* Scene6ViewController.swift in Sources */,
 				D778B0B22AF0874D001C297F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -465,10 +465,10 @@
             </objects>
             <point key="canvasLocation" x="1597.709923664122" y="303.52112676056339"/>
         </scene>
-        <!--View Controller-->
+        <!--Scene6 View Controller-->
         <scene sceneID="wyM-SQ-HbV">
             <objects>
-                <viewController id="8tG-Bc-UCL" customClass="ViewController" customModule="DataHarbor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8tG-Bc-UCL" customClass="Scene6ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DS8-9Q-9Gf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -547,6 +547,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osV-mm-2mt">
+                                <rect key="frame" x="267" y="710" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46274509800000002" green="0.72549019609999998" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="a6j-aF-3d6" kind="show" id="z6O-ee-wX4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RhI-VR-CJm"/>
                         <color key="backgroundColor" red="0.85490196080000003" green="0.89019607840000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -587,6 +599,7 @@
                             <constraint firstItem="zUw-1a-DtX" firstAttribute="centerX" secondItem="DS8-9Q-9Gf" secondAttribute="centerX" id="w53-fB-Gnh"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Exu-T0-nDy"/>
                     <connections>
                         <outlet property="addText" destination="MOa-hE-xL5" id="lui-97-bQF"/>
                         <outlet property="age" destination="W3d-Kx-AzZ" id="hGg-c6-9qk"/>
@@ -675,6 +688,18 @@
                                 <rect key="frame" x="129" y="123" width="134" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4V-Ko-JTN">
+                                <rect key="frame" x="166" y="720" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46274509800000002" green="0.72549019609999998" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="8tG-Bc-UCL" kind="show" id="Ovj-9p-Uwz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FqA-iM-kOx"/>
                         <color key="backgroundColor" red="1" green="0.90196078430000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -693,22 +718,22 @@
             </objects>
             <point key="canvasLocation" x="3268" y="295"/>
         </scene>
-        <!--View Controller-->
+        <!--Scene7 View Controller-->
         <scene sceneID="BHJ-Af-Dpc">
             <objects>
-                <viewController id="a6j-aF-3d6" customClass="ViewController" customModule="StackView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a6j-aF-3d6" customClass="Scene7ViewController" customModule="Paboda_Senevirathne_MT_8927315" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iLH-fA-g99">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ttp-jq-1sh">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVG-WD-Fhw">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="253"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="222"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ljm-Gj-A9U">
-                                                <rect key="frame" x="171.66666666666666" y="101.66666666666666" width="50" height="50"/>
+                                                <rect key="frame" x="171.66666666666666" y="86" width="50" height="50"/>
                                                 <color key="backgroundColor" red="0.43921568630000002" green="0.67450980390000004" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="XHO-sO-VZN"/>
@@ -723,10 +748,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s20-0T-rEZ">
-                                        <rect key="frame" x="0.0" y="253" width="393" height="253"/>
+                                        <rect key="frame" x="0.0" y="222" width="393" height="222"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="rwm-Jo-MGt">
-                                                <rect key="frame" x="71.666666666666686" y="76.666666666666686" width="250" height="100"/>
+                                                <rect key="frame" x="71.666666666666686" y="61" width="250" height="100"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VxD-u1-aqv">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -754,7 +779,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soh-PQ-rlW">
-                                        <rect key="frame" x="0.0" y="506" width="393" height="253"/>
+                                        <rect key="frame" x="0.0" y="444" width="393" height="222"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
@@ -769,6 +794,7 @@
                             <constraint firstItem="Ttp-jq-1sh" firstAttribute="top" secondItem="jdE-Da-LHB" secondAttribute="top" id="qdH-vx-nJb"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dTz-I9-jxq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2K-9f-ALk" sceneMemberID="firstResponder"/>
             </objects>
